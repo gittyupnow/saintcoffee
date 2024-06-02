@@ -1,13 +1,15 @@
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
-<!-- CSS ABOVE NEEDED FOR BULLETS -->
+<html>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <!-- https://swiperjs.com/swiper-api#initialize-swiper -->
-  <script>
+</html>
+
+
+  // <!-- Initialize Swiper -->
+  // <!-- https://swiperjs.com/swiper-api#initialize-swiper -->
+
     var swiper = new Swiper(".swiper", {
     
 //     autoplay: {
@@ -128,12 +130,12 @@ swipertop.slideToLoop(shiftedday, 0);
 
 
 
-  </script>
 
 
 
 
-<script>
+
+
 
 
     //            function test() {
@@ -159,12 +161,12 @@ const aaa = "color: white; font-family: sans-serif; font-size: 6vw; background: 
 //test();
 
 console.log("%cFLOW GHOST 👻", "color: white; font-family: sans-serif; font-size: 50px; background: linear-gradient(45deg, #f36565, #5e7cc9, #83ae40); padding: 10px 10px 10px 10px; border-radius: 25px; border: 5px solid #fefefe;");
-</script>
 
 
 
-<!-- LOTTIE PRELOADER -->
-<script>
+
+// <!-- LOTTIE PRELOADER -->
+
 // Return a promise that resolves to true once animation is loaded
 async function animationLoaded (animation) {
   if (animation.isLoaded) {
@@ -204,5 +206,5 @@ setTimeout(() => splash.style.display = 'none', 200)
       console.error(error)
     })
 })
-</script>
-<!-- END LOTTIE PRELOADER -->
+
+// <!-- END LOTTIE PRELOADER -->
