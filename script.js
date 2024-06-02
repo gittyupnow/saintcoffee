@@ -65,6 +65,14 @@
     			return '<span class="' + className + ' barista' + (index + 1) + '">' + (index + 1) + '</span>';
         if (index == 1)
           return '<span class="' + className + ' barista' + (index + 1) + '">' + (index + 1) + '</span>';
+        if (index == 2)
+          return '<span class="' + className + ' barista' + (index + 1) + '">' + (index + 1) + '</span>';
+        if (index == 3)
+          return '<span class="' + className + ' barista' + (index + 1) + '">' + (index + 1) + '</span>';
+        if (index == 4)
+          return '<span class="' + className + ' barista' + (index + 1) + '">' + (index + 1) + '</span>';
+        if (index == 5)
+          return '<span class="' + className + ' barista' + (index + 1) + '">' + (index + 1) + '</span>';
        else
        return '<span class="' + className + '">' + (index + 1) + "dd" + '</span>';
        
