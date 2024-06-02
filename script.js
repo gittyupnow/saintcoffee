@@ -76,7 +76,7 @@
    autoplay: {
    delay: 5000,
    disableOnInteraction: true,
-   pauseOnMouseEnter: false, //was true
+   pauseOnMouseEnter: false, //was true blah blah
  },
       
    		freeMode: {
